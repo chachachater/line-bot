@@ -13,7 +13,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "linebot": "^1.6.1"
+    "linebot": "^1.6.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {}
 }
