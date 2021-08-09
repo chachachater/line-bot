@@ -1,6 +1,6 @@
 var linebot = require('linebot')
 const port = process.env.PORT || 3000
-
+console.log('hi i am robot')
 var bot = linebot({
   channelId: process.env.CHANNEL_ID,
   channelSecret: process.env.CHANNEL_SECRET,
