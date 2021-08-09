@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "token": "CHANNEL_ID=1656289144 CHANNEL_SECRET=a72e188dd84f520da4dc84f13cc60471 CHANNEL_ACCESS_TOKEN=dcdZSOQxHg4tRXcPKPPZ4Xq6TV3K1GLEtTUbKp1vJO4qq1XABKM1vqzPTKfJHijZ3lyRrEalkdn0luwpcvXdd/W5xr0YyMRIUPeSXIHiATyj7eWR3Un6B+mLmSF6lt+SGDaSY91rZIt2/M4F7igqlwdB04t89/1O/w1cDnyilFU=",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "CHANNEL_ID='1656289144' CHANNEL_SECRET='a72e188dd84f520da4dc84f13cc60471' CHANNEL_ACCESS_TOKEN='dcdZSOQxHg4tRXcPKPPZ4Xq6TV3K1GLEtTUbKp1vJO4qq1XABKM1vqzPTKfJHijZ3lyRrEalkdn0luwpcvXdd/W5xr0YyMRIUPeSXIHiATyj7eWR3Un6B+mLmSF6lt+SGDaSY91rZIt2/M4F7igqlwdB04t89/1O/w1cDnyilFU=' node index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "14.x"
