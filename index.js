@@ -2,7 +2,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
-app.get('/index', res.end('urrr'))
+app.get('/line-bot', (req, res, next) => {
+  console.log('/line-bot')
+  res.end('urrr')}
+  )
 
 app.listen(port, () => {
   console.log(`listening now...`)
