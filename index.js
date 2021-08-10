@@ -19,7 +19,7 @@ app.get('/line-bot', (req, res, next) => {
 
 bot.on('message', function (event) {
   console.log('we got a message', event)
-  event.reply(`did you say:`).then(function (resp) {
+  event.reply(`did you say:${event.message.text}`).then(function (resp) {
     console.log('we success')
     console.log('resp', resp)
   }).catch(function (error) {
