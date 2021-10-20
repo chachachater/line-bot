@@ -9,6 +9,7 @@
   <a href="#">
     <img src="https://qr-official.line.me/sid/L/807tbena.png" alt="QRCode">
   </a>
+  <p>(可以用 line 掃描來直接使用)</p>
   <h3 align="center">個人用 Line-bot</h3>
 </div>
 
